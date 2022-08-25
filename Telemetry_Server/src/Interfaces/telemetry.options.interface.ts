@@ -1,0 +1,8 @@
+export interface TelemetryOptions {
+  MAX_BITRATE_SWITCH_TIME: number;
+  MAX_BITRATE_SWITCH_REPS: number;
+  MAX_BUFFERING_EVENT_TIME: number;
+  MAX_BUFFERING_EVENT_TIME_IN_INTERVAL: number;
+  MAX_BUFFERING_EVENT_REPS: number;
+  MAX_BUFFERING_EVENT_INTERVAL: number;
+}
